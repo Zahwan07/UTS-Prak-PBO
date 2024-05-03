@@ -1,9 +1,9 @@
-// Interface
+//Interface
 interface NilaiAkhir {
     double ipk(int[] nilaiMatkul);
 }
 
-// Abstract class
+//Abstract class
 abstract class Mahasiswa implements NilaiAkhir {
     private String nama;
     private int[] nilaiMatkul;
@@ -33,11 +33,13 @@ abstract class Mahasiswa implements NilaiAkhir {
     }
 }
 
+//Inheritance
 class DataMahasiswa extends Mahasiswa {
     public DataMahasiswa(String nama, int[] nilaiMatkul) {
         super(nama, nilaiMatkul);
     }
 
+//Polymorphism
     @Override
     public double ipk(int[] nilaiMatkul) {
         return nilaiAkhir(nilaiMatkul);
