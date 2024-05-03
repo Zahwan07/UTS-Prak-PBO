@@ -16,7 +16,6 @@ Silahkan buat program yang didalamnya terdapat seluruh konsep PBO yang sudah dip
 * Inheritance
 * Polimorphism
 * Interface atau Abstract
-
 Dibuat sesuai kriteria diatas dan minimal terdapat tiga class didalamnya.
 ---
 
