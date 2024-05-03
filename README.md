@@ -7,17 +7,17 @@ NIM: 1227050138
 Kelas: E
 Jurusan: Teknik Informatika
 Universitas: UIN Sunan Gunung Djati Bandung'
-
+---
 
 ## Deskripsi Tugas:
 Silahkan buat program yang didalamnya terdapat seluruh konsep PBO yang sudah dipelajari diantaranya terdapat :
 
-Encapsulation
-Inheritance
-Polimorphism
-Interface atau Abstract
+* Encapsulation
+* Inheritance
+* Polimorphism
+* Interface atau Abstract
 Dibuat sesuai kriteria diatas dan minimal terdapat tiga class didalamnya.
-
+---
 
 ## **Source Code**
 
