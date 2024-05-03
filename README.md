@@ -102,17 +102,20 @@ Program di atas adalah contoh implementasi konsep Object-Oriented Programming (O
   
 * memiliki ```cariIpk``` yang Wajib diimplementasikan oleh kelas turunan, memungkinkan implementasi yang berbeda tergantung pada jenis mahasiswa.
   
-* ```nilaiAkhir```: Menghitung rata-rata nilai mata kuliah yang diberikan.
+* ```nilaiAkhir``` Menghitung rata-rata nilai mata kuliah yang diberikan.
   
 * memiliki ``` displayMahasiswa```agar program Menampilkan informasi mahasiswa, termasuk IPK yang dihitung.
+  
 
 3.  Class DataMahasiswa:
 * memiliki ```DataMahasiswa```agar ```Mahasiswa``` dapat diwarisi dan menyediakan implementasi untuk metode ```cariIpk```. ```DataMahasiswa``` juga Mewarisi properti dan metode dari kelas ```Mahasiswa```
+
 
 4. Main Class UTSPrakPbo:
 * Didalam method ```main```, program akan membuat objek ```zahwan``` dari kelas ```DataMahasiswa``` yang akan menginisialisasi objek ```nama``` dan array nilai dengan skala 4.00 sebagai IPK.
 
 * objek ```zahwan``` terdefinisi sebagai tipe ```Mahasiswa``` tetapi diinisialisasikan sebagai ```DataMahasiswa``` agar objek berperilaku seperti kelas induknya yang menunjukkan konsep Polymorphism.
+
 
 6. Output:
 Program mencetak nama mahasiswa dan IPK yang dihitung dengan memanggil metode ```displayMahasiswa``` dari objek ```zahwan```.
